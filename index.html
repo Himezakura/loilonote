@@ -2,11 +2,20 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Download Loilonote MODs</title>
     <link rel="icon" type="image/png" href="loilonote.png">
   </head>
 <body>
+    
+    
 <style>
+:root{
+    --download_color:#007CFD;
+    --download_enable_color:#007CFD;
+    --download_disable_color:#8D8C93;
+}
 body{
 	text-align:center;
 	font-family:sans-serif;
@@ -43,13 +52,13 @@ li{
 	width: 120px;
 	margin: auto;
 	padding: 1rem 4rem;
-	border: 2px solid #007CFD;
-	background-color:#007CFD;
+	border: 2px solid var(--download_color);
+	background-color:var(--download_color);
 	color: white;
 	border-radius:10px;
 }
 .download:hover{
-	color:#007CFD;
+	color:var(--download_color);
 	background-color:white;
 }
 .safari_not_os{
@@ -64,11 +73,14 @@ li{
     background-color: white;
     color: dark;
 }
+.beta_mark{
+    color:red;
+}
 </style>
 <br>
 <br>
-<h1>Loilo Note MODs --ver11.0.0 Download</h1>
-<img src="loilo_mod.jpg" alt="[画像の読み込みに失敗しました]" width="1000px">
+<h1><span class="beta_mark">[試作版]</span>Loilo Note MODs --ver17.0.0 Download</h1>
+<img src="loilo_mod_ver17.0.0.jpg" alt="[画像の読み込みに失敗しました]" width="1000px">
 <hr>
 <h2 class="c">開発者：iris0</h2>
 <hr>
@@ -83,17 +95,26 @@ li{
     <li>提出箱などのラベル色変更</li>
     <li>Teacher Tool(没)を有効化</li>
 </ul>
+<p class="c">追加機能(7/19):</p>
+<ul>
+    <li>カスタムテキストカードの追加<span class="beta_mark">[Beta]</span></li>
+    <li>壁紙変更（最大8種類）を追加<span class="beta_mark">[Beta]</span></li>
+</ul>
 <br>
-<p class="loilo_a"><b>ロイロノートバージョン11.0.0<br>動作確認済み</b></p>
-<p class="loilo_b"><b>ロイロノートバージョン12.0.0<br>動作未確認</b></p>
+<p class="loilo_a"><b>ロイロノートバージョン17.0.0<br>動作確認済み</b></p>
+<p class="loilo_b"><b>なし<br>動作未確認</b></p>
 <br>
 <br>
 <br>
-<p style="color:#1BCDE0;">Loilo Note MODs --ver11.0.0[最新バージョン対応]</p>
-<a href="https://www.icloud.com/shortcuts/3c893216af6b4527ae8b9f8d4d70688d" class="download" target="_blank" rel="noopener noreferrer"><b>Download Shortcut</b></a>
+<p style="color:#1BCDE0;"><span class="beta_mark">[試作版]</span>Loilo Note MODs --ver17.0.0[最新バージョン対応]</p>
+<a href="https://www.icloud.com/shortcuts/88699a50f44d488da95687551d939442" class="download" target="_blank" rel="noopener noreferrer" style="--download_color:var(--download_enable_color);"><b>Download Shortcut</b></a>
+<p style="color:#1BCDE0;">Loilo Note MODs --ver11.0.0[旧バージョン]</p>
+<a href="https://www.icloud.com/shortcuts/a072573c96834b278bca0f17a091fa6e" class="download" target="_blank" rel="noopener noreferrer" style="--download_color:var(--download_disable_color);"><b>Download Shortcut</b></a>
 <br>
 <br>
-<br>
+<div class="cc">
+    <p class="c">※最新と旧の違いはmodの量なので現在でも旧バージョンは問題なく動作します</p>
+</div>
 <hr>
 <h2 class="c">使い方</h2>
 <hr>
@@ -101,20 +122,22 @@ li{
     <p class="c">①設定 > <img src="https://help.apple.com/assets/61FDB56EF2D63A53D22ED4EA/61FDB570F2D63A53D22ED4F2/ja_JP/fbd8d40651fff19a46e7aaedd4cb1b09.png" alt="" height="17" width="17">ショートカット > 詳細 > スクリプトの実行を許可<br>をオンにします。</p>
     <img src="shortcut_setting.jpeg" alt="[画像の読み込みに失敗しました]" width="500px">
     <br>
-    <p class="c">②safariを開き、<img src="loilonote.png" alt=""><a href="https://loilonote.app/_/" target="_blank" rel="noopener noreferrer">ロイロノート</a>を開きます。<br>右上の<img src="https://help.apple.com/assets/61FDB56EF2D63A53D22ED4EA/61FDB570F2D63A53D22ED4F2/ja_JP/1dffdfb9e2392ea87150bd6b7fcd24f6.png" alt="" height="17" width="15">をクリックし、「Loilo Note MODs --ver11.0.0[最新バージョン対応]」をクリックします。</p>
+    <p class="c">②safariを開き、<img src="loilonote.png" alt=""><a href="https://loilonote.app/_/" target="_blank" rel="noopener noreferrer">ロイロノート</a>を開きます。<br>右上の<img src="https://help.apple.com/assets/61FDB56EF2D63A53D22ED4EA/61FDB570F2D63A53D22ED4F2/ja_JP/1dffdfb9e2392ea87150bd6b7fcd24f6.png" alt="" height="17" width="15">をクリックし、「[試作版]Loilo Note MODs --ver17.0.0[最新バージョン対応]」をクリックします。</p>
     <img src="using.jpeg" alt="[画像の読み込みに失敗しました]" width="500px">
 </div>
 <br>
 <br>
 <br>
 <hr>
-
-<h2 class="c">PCなどsafariが無い端末で使用する場合</h2>
+<h2 class="c">PCなどsafariが無い環境で使用する場合</h2>
 <hr>
 <div class="cc">
-    <p class="c">以下のボタンからjavascriptファイルをダウンロードし、web版<img src="lilonote.png" alt="">ロイロノートを開き、端末に合った方法でjavascriptを実行させてください。</p>
+    <p class="c">以下のボタンからjavascriptファイルをダウンロードし、web版<img src="lilonote.png" alt="">ロイロノートを開きそれぞれのブラウザ環境に沿った方法でjavascriptを実行させてください。</p>
     <br>
-    <a href="loilonote_mods.js" class="download" download><b>javascriptファイルをダウンロード</b></a>
+    <p style="color:#1BCDE0;"><span class="beta_mark">[試作版]</span>Loilo Note MODs --ver17.0.0[最新バージョン対応]</p>
+    <a href="loilonote_mods.js" class="download" style="--download_color:var(--download_enable_color);" download><b>javascriptファイルをダウンロード</b></a>
+    <p style="color:#1BCDE0;">Loilo Note MODs --ver11.0.0[旧バージョン]</p>
+    <a href="loilonote_mods_ver11.0.0.js" class="download" style="--download_color:var(--download_disable_color);" download><b>javascriptファイルをダウンロード</b></a>
     <br>
     <br>
     <br>
@@ -124,8 +147,8 @@ li{
 <hr>
 <div class="note">
     <ul>
-        <li><img src="https://help.apple.com/assets/634F499B46529C188C4F687C/634F499C46529C188C4F6883/ja_JP/6846073fc6f766d1ad3f66ae757c5e24.png" alt="" width="17px" height="17px">Safariかつweb版<img src="loilonote.png" alt="">ロイロノートでのみ動作します。</li>
-        <li>一度MODをオンにしているサイトをリロードするとMODが切れてしまうので再度、「使い方」の②を実行します。</li>
+        <li><img src="https://help.apple.com/assets/634F499B46529C188C4F687C/634F499C46529C188C4F6883/ja_JP/6846073fc6f766d1ad3f66ae757c5e24.png" alt="" width="17px" height="17px"><s>Safariかつ</s>web版<img src="loilonote.png" alt="">ロイロノートでのみ動作します</li>
+        <li>MODが有効な状態でサイトをリロードするとMODが切れてしまうので再度、「使い方」の②を実行します</li>
     </ul>
 </div>
 <hr>
